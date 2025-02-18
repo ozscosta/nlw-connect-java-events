@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: events
+
+  datasource:
+    username: postgres
+    password: pgpassword
+    url: jdbc:postgresql://localhost:5439/sistema-inscricoes-java
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
